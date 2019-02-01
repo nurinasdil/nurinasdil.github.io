@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Мебель</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+	<link rel="stylesheet" href="fonts/stylesheet.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
+
+	<link rel="stylesheet" href="css/normalize.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="main-logo">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<div class="container">
+					<div class="navbar-brand logo">
+								<a href="#">M<span>i</span><span>i</span>G</a>
+								<p>Мебельная фабрика</p>
+							</div>
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+						<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+							
+									<div class="number-phone">
+										<div class="single-phone">8 (3412) 642-111<span>Отдел продаж</span></div>
+										<div class="single-phone">8 (952) 402-41-11<span>Доставка</span></div>
+									</div>
+								
+									<div class="back-call">
+										<a href="#" data-toggle="modal" data-target="#exampleModalLong"><img src="image/phone.png" class="img-fluid"> Обратный звонок</a>
+									</div>
+							
+									<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+										<div class="modal-dialog" role="document">
+
+
+											<div class="box" id="order">
+												<form id="form" class="form">
+													<p><input type="text" name="name" placeholder="Ваше имя" required></p>
+													<p><input type="text" name="email" placeholder="Ваш email" required></p>
+													<p><textarea name="message" placeholder="Сообщение"></textarea></p>
+													<div class="form-group form-check">
+														<input type="checkbox" class="form-check-input" id="exampleCheck1">
+														<label class="form-check-label" for="exampleCheck1">Я принимаю условию политики конфедициальности и даю согласие на обработку персональных данных</label>
+													</div>
+													<button type="submit" class="btn" id="btncheck" disabled="disabled">Отправить</button>
+												</form>
+											</div>
+										</div>
+									</div>
+								
+									<ul class="nav navbar-nav ml-auto">
+											<li class="nav-item"><a href="#">Услуги<img src="image/arrow.png" class="img-fluid"></a></li>
+											<li class="nav-item"><a href="#">Новости<img src="image/arrow.png" class="img-fluid"></a></li>
+											<li class="nav-item"><a href="#">Галерия<img src="image/arrow.png" class="img-fluid"></a></li>
+											<li class="nav-item"><a href="#">О компании<img src="image/arrow.png" class="img-fluid"></a></li>
+											<li class="nav-item"><a href="#">Контакты<img src="image/arrow.png" class="img-fluid"></a></li>
+										</ul>
+									
+					</div>
+					</div>
+			</nav>
+				
+								
+						
+					
+					<div class="main-catalog">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-2 col-sm-4">
+									<div class="catalog">
+										<i class="fas fa-bars"></i> Каталог
+									</div>
+								</div>
+								<div class="col-md-10 col-sm-8 col-12">
+									<div class="contact">
+										<div class="single-contact"><i class="far fa-envelope"></i>gimin@mail.ru</div>
+										<div class="single-contact"><i class="fas fa-map-marker-alt"></i>д.Пирогово ул.Заречная 2</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+	</header>
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide grid">
+				<div class="container">
+					<div class="single-main">
+						<h1>Изготовление экслюзивных<br> изделий из дерева</h1>
+						<a href="#" class="button">Подробнее</a>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide grid">
+				<div class="container">
+					<div class="single-main">
+						<h1>Изготовление экслюзивных<br> изделий из дерева</h1>
+						<a href="#" class="button">Подробнее</a>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide grid">
+				<div class="container">
+					<div class="single-main">
+						<h1>Изготовление экслюзивных<br> изделий из дерева</h1>
+						<a href="#" class="button">Подробнее</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- Add Pagination -->
+		<div class="swiper-pagination"></div>
+	</div>
+	<section class="product">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-3 col-6">
+					<div class="single-product">
+						<img src="image/stairs.png" class="img-fluid"> Изготовление
+						<br> Лестниц
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-3 col-6">
+					<div class="single-product">
+						<img src="image/door.png" class="img-fluid"> Изготовление
+						<br> Дверей
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-3 col-6">
+					<div class="single-product">
+						<img src="image/chairs.png" class="img-fluid"> Изготовление
+						<br> Мебели
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-3 col-6">
+					<div class="single-product">
+						<img src="image/lamp.png" class="img-fluid"> Изготовление<br> Сувениров
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="about company">
+		<div class="container">
+			<div class="first-company">
+				<h1 class="title">О Фабрике "МИИГ"</h1>
+
+				<p> Мебельная фабрика «Мииг» основана в 1995 году и является одним из ведущих производителей лестниц и мебели в Поволжском регионе. Основной специализацией является производство и продажа мебели из массива дерева, в том числе, на заказ , изготовление лестниц любой сложности. Вся продукция производится по индивидуально разработанным технологиям, в соответствии со всеми нормами качества.
+
+					<p>Компания MiiG предлагает услуги по производству лестниц из ценных пород древесины.</p>
+
+					<p>Если Вам нужна лестница, изготовленная в полном соответствии с Вашими требованиями, тогда Вы пришли по адресу!</p>
+
+					<p> Изготовление лестниц на заказ является основной деятельностью компании «MiiG»</p>
+
+					<p>22 летний опыт работы и подобранная команда профессионалов позволяет нам реализовывать самые сложные проекты! Вы получите эксклюзивную лестницу, которая будет отличаться оригинальным дизайном и долгим сроком службы.</p>
+			</div>
+
+			<div class="plus-company">
+				<p class="plus">Преимущества мебели от фабрики «Мииг»:</p>
+				<div class="single-company">
+					<div class="single-plus">
+						<img src="image/weight.png">
+						<div class="single-img">Cоотнешение цены<br> и качества</div>
+					</div>
+					<div class="single-plus">
+						<img src="image/setting.png" class="img-fluid">
+						<div class="single-img">Лекгая уборка<br> и установка</div>
+					</div>
+					<div class="single-plus">
+						<img src="image/calendar.png" class="img-fluid">
+						<div class="single-img">Длительный срок <br>эксплуатация</div>
+					</div>
+					<div class="single-plus">
+						<img src="image/calendar.png" class="img-fluid">
+						<div class="single-img">Экологичность<br> материала</div>
+					</div>
+				</div>
+
+				<p> Для нашей компании, лестница из массива дерева - это не просто конструкция из досок и фурнитуры, а главная часть дома и важнейшая часть интерьера. В интерьере можно добавить или убрать любой элемент, но без лестницы, если есть второй этаж, не обойтись.</p>
+
+				<p> Деревянная лестница, сделанная на заказ может быть: яркой, резной, дорогой и не обычной, но главное чтобы она была выполнена из качественных материалов и с соблюдением всех технологий. Наши клиенты пользуются нашими лестницами уже много лет и не замечают этого, потому что основная концепция лестницы это тишина и удобство.</p>
+			</div>
+
+			<div class="stairs grid">
+				<div class="single-stair" id="stair">
+					<h3>Лестницы с кованными элементами</h3>
+					<span class="stair-img"><img src="image/stairs.jpg" class="img-fluid"></span>
+					<p>Металлические лестницы могут иметь практически любой внешний вид. Как правило, мастера и дизайнеры выбирают тот или иной вариант в зависимости от общего стиля интерьера, площади помещения и других критериев. Так, например, для небольших помещений отлично подходят кованые </p>
+					<div class="text">длины проема. Зная оптимальный угол наклона лестницы α и расстояние h, сверившись с таблицами Брадиса, можно определить длину лестницы как гипотенузу в прямоугольном треугольнике с высотой h и противолежащим углом α.</div>
+					<a class="link">Читать далее</a>
+				</div>
+				<div class="single-stair">
+					<h3>Лестницы с кованными элементами</h3>
+					<span class="stair-img"><img src="image/stairs.jpg" class="img-fluid"></span>
+					<p>Комбинированные лестницы являются компромиссом между металлом и деревом. Грамотно спроектированная конструкция, укомплектованная разнохарактерными материалами, позволяющими реализовывать самые необычные проекты лестниц. Для изготовления комбинированных лестниц </p>
+				</div>
+				<div class="single-stair">
+					<h3>Лестницы с кованными элементами</h3>
+					<span class="stair-img"><img src="image/stairs.jpg" class="img-fluid"></span>
+					<p>Это классический вариант, который отлично впишется в любой стиль интерьера. Преимущества такой лестницы определяются в первую очередь достоинствами самого материала. Твердость и высокая плотность древесины гарантирует прочность и устойчивость лестницы к внешнему воздействию.
+					</p>
+				</div>
+			</div>
+			<div class="advantages">
+
+				<p class="plus">Изготовление лестниц из массива дерева под заказ:</p>
+
+				<p>Растущий спрос на изготовление лестниц удовлетворяет различными предложениями в части цены и качества. Наша фабрика предлагает изготовление лестниц из дерева по современным технологиям, с использованием материалов высокого качества. Чтобы лестница идеально подходила для конкретного помещения, ее нужно изготавливать по индивидуальному проекту. Производство лестниц из дерева предполагает несколько этапов:</p>
+				<div class="start-working grid">
+					<div class="number">
+						<h3>1</h3>
+					</div>
+					<div class="number">
+						<h3>2</h3>
+					</div>
+					<div class="number">
+						<h3>3</h3>
+					</div>
+					<div class="number">
+						<h3>4</h3>
+					</div>
+					<div class="number">
+						<h3>5</h3>
+					</div>
+
+					<div class="number">
+						<h3>6</h3>
+					</div>
+					<div class="number">
+						<h3>7</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+	<section class="products">
+		<div class="container">
+			<div class="card-deck grid">
+				<div class="card">
+					<img class="card-img-top" src="image/first.png" alt="Card image cap">
+					<div class="product-content card-body">
+						<h5 class="card-title">Вешалка</h5>
+						<a href="#" class="link">Подробнее</a>
+					</div>
+				</div>
+				<div class="card">
+					<img class="card-img-top" src="image/1-chair.png" alt="Card image cap">
+					<div class="product-content card-body">
+						<h5 class="card-title">Вешалка костюмная</h5>
+						<a href="#" class="link">Подробнее</a>
+					</div>
+				</div>
+				<div class="card">
+					<img class="card-img-top" src="image/2-chair.png" alt="Card image cap">
+					<div class="product-content card-body">
+						<h5 class="card-title">стол</h5>
+						<a href="#" class="link">Подробнее</a>
+					</div>
+				</div>
+				<div class="card">
+					<img class="card-img-top" src="image/3-chair.png" alt="Card image cap">
+					<div class="product-content card-body">
+						<h5 class="card-title">стол</h5>
+						<a href="#" class="link">Подробнее</a>
+					</div>
+				</div>
+				<div class="card">
+					<img class="card-img-top" src="image/4-chair.png" alt="Card image cap">
+					<div class="product-content card-body">
+						<h5 class="card-title">Вешалка</h5>
+						<a href="#" class="link">Подробнее</a>
+					</div>
+				</div>
+
+
+				<div class="card">
+					<img class="card-img-top" src="image/last-chair.png" alt="Card image cap">
+					<div class="product-content card-body">
+						<h5 class="card-title">Вешалка</h5>
+						<a href="#" class="link">Подробнее</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 col-sm-3 col-6">
+					<div class="all-footer">
+						<h3>Каталог</h3>
+						<ul class="nav flex-column">
+							<li><a href="#">Вешалки</a></li>
+							<li><a href="#">Банкетки</a></li>
+							<li><a href="#">Столики</a></li>
+							<li><a href="#">Кресло</a></li>
+							<li><a href="#">Диваны</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-3 col-6">
+					<div class="all-footer">
+						<h3>Услуги</h3>
+						<ul class="nav flex-column">
+							<li><a href="#">Иготовление лестниц</a></li>
+							<li><a href="#">Иготовление мебели</a></li>
+							<li><a href="#">Иготовление дверей</a></li>
+							<li><a href="#">Иготовление сувениров</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-3 col-6">
+					<div class="all-footer">
+						<h3>О компании</h3>
+						<ul class="nav flex-column">
+							<li><a href="#">История фирмы</a></li>
+							<li><a href="#">Наши мастера</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-3 col-6">
+					<div class="all-footer">
+						<h3>Контакты</h3>
+						<ul class="nav flex-column">
+							<li>8 (3412) 624-111</li>
+							<li>8 (952) 40-24-111</li>
+							<li>427022, УР, Завьяловский район,</li>
+							<li>д. Пирогово, ул.Заречная, 2</li>
+							<li><a href="#" class="link">info-info@miig.ru</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-12">
+					<div class="logo-footer">
+						<div class="logo">
+							<a href="#">M<span>i</span><span>i</span>G</a>
+							<p>Мебельная фабрика</p>
+						</div>
+						<div class="buttons">
+							<a href="#" role="button">Счетчик</a>
+							<a href="#" class="button">Метрика</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				Все права зашещины 2017 ©
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/jq.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/swiper.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+			loop: true,
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+			},
+		});
+
+		$(document).ready(function() {
+			var hiddenInfo = $(".text");
+			var readMoreTrigger = $(".link");
+           
+			//hide div .hidden-info
+			hiddenInfo.hide();
+
+			readMoreTrigger.on("click", function() {
+				//toggle the hidden div
+				hiddenInfo.toggle();
+				//toggle text in .hidden-info to 'Read Less', 'Read More'
+				if (readMoreTrigger.text() == "Читать далее")
+					readMoreTrigger.text("Скрыть");
+				else readMoreTrigger.text("Читать далее");
+			});
+		});
+
+	</script>
+</body>
+
+</html>

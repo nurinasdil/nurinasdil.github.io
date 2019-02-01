@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Core Sans A 35';
+    src: url('CoreSansA35Light.eot');
+    src: url('CoreSansA35Light.eot?#iefix') format('embedded-opentype'),
+        url('CoreSansA35Light.woff') format('woff'),
+        url('CoreSansA35Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Core Sans A 55';
+    src: url('CoreSansA55Medium.eot');
+    src: url('CoreSansA55Medium.eot?#iefix') format('embedded-opentype'),
+        url('CoreSansA55Medium.woff') format('woff'),
+        url('CoreSansA55Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Core Sans A 65';
+    src: url('CoreSansA65Bold.eot');
+    src: url('CoreSansA65Bold.eot?#iefix') format('embedded-opentype'),
+        url('CoreSansA65Bold.woff') format('woff'),
+        url('CoreSansA65Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
